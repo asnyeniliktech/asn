@@ -35,7 +35,7 @@ const Common= (props) => {
 
 <div className="col-lg-6 order-1 order-lg-2 header-img">
 
-{(props.imgscr)? <img src={props.imgscr}  className="img-fluid animated"    alt="home img"/> : null}
+{(props.imgscr)? <img src={props.imgscr}  className="img-fluid animated mb-2"    alt="home img"/> : null}
 
 </div>
 </div>

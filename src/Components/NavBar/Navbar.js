@@ -1,5 +1,6 @@
 import React from "react";
 import {NavLink } from "react-router-dom";
+// import asnlogo from "../../img/asn.png";
 const Navbar =()=> {
   return (
     <div>
@@ -14,7 +15,9 @@ const Navbar =()=> {
             </div>
         </div> */}
      <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-  <NavLink exact className="navbar-brand" to="/">ASN Yenilik </NavLink>
+
+     {/* <img src={asnlogo}   style={{width:"20px"}}   alt="ASN"/> */}
+  <NavLink exact className="navbar-brand" to="/"> ASN Yenilik </NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
