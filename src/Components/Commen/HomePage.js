@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const Common= (props) => {
+const HomePage= (props) => {
     return (
         <div>
             <section id="header" className="d-flex align-items-center">
@@ -15,17 +15,17 @@ const Common= (props) => {
 
 
                             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                                <h1>
+                                <h1  className="text-warning">
                                     {props.name}
-                                    <strong className="brand-name"> ASN </strong> Yenilik Tech
+                                    <strong className="brand-name text-white"> ASN </strong> Yenilik Tech
 </h1>
  
-                                <h2 className="my-3">
+                                <h2 className="my-3" style={{color:"#db45a2"}}>
                                     We are the team of talented developer making websites
 </h2>
 
                                 <div className="mt-3">
-                                    <NavLink to= {props.visit} className="btn get-started  ">
+                                    <NavLink to= {props.visit} className="btn btn-outline-success text-warning">
                                     {props.btnName}
                                    </NavLink>
                                 </div>
@@ -49,4 +49,4 @@ const Common= (props) => {
     );
 }
 
-export default Common;
+export default HomePage;

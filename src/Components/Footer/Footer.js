@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () =>{
 
     return (
-<div className="text-center">
+<div className="text-center my-2">
 
 <footer >
 
