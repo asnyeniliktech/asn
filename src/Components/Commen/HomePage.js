@@ -21,7 +21,7 @@ const HomePage= (props) => {
 </h1>
  
                                 <h2 className="my-3" style={{color:"#db45a2"}}>
-                                    We are the team of talented developer making websites
+                                    We are the team of talented developer making websites.
 </h2>
 
                                 <div className="mt-3">
