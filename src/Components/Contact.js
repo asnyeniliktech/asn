@@ -45,7 +45,7 @@ const {name,value}=event.target;
     return (
       <div  style={{marginTop:"60px"}}>
       <section id="header" className="d-flex align-items-center">
-      
+    
           <div className="container-fluid mb-8">
       
               <div className="row">
@@ -126,7 +126,14 @@ rows="4"></textarea>
       
       
       <img src={web}  className="img-fluid animated"    alt="home img"/>
+
+<div  className="btn " style={{marginTop:"80px", fontSize:"25px" }}>
+Call Us <p className="btn-outline-success ">+923404435784</p>
+</div>
+      
       </div>
+
+       
       </div>
                   </div>
       
